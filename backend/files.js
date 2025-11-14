@@ -1,5 +1,5 @@
 import { createServer } from 'http'
-import { writeFileSync, readFileSync } from 'fs'
+import { readFileSync } from 'fs'
 
 const server = createServer((req, res) => {
   res.statusCode = 200
